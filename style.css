@@ -1,0 +1,79 @@
+body {
+    text-align: center;
+    margin-top: -5px;
+}
+
+#button-layout { 
+    display: grid;
+    grid-template-columns: auto auto;   
+}
+
+#button1, #button2, #button3, #button4, #button5, #button6, #button7, #button8 {
+    width: 100%;
+    border: none;
+    padding: 1rem;
+    text-decoration: none;
+    background: gray;
+    color: #ffffff;
+    font-size: 1rem;
+    text-align: center;
+}
+
+#text-box {
+    width:100%;
+    height: 50px;
+    font-size:30px;   
+}
+
+#text {
+    grid-column-start: 1; 
+    grid-column-end: 3;    
+}
+
+#button-layout {
+    margin-left: 200px;
+    margin-right: 200px;
+    border: 2px solid gray;
+    border-radius: 5px;  
+}
+
+#button-layout div { 
+    border-radius: 5px;
+    padding: 1em;
+    color: gray;
+}
+
+#answer-area {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#answer-tag {
+    font-size: 1.5rem;
+    width: 300px;
+    height: 50px;
+    border: 2px solid gray;
+    margin-left: 65px;
+    margin-bottom: 20px;   
+}
+
+#clear {
+    width: 50%;
+    border: none;
+    padding: 1rem;
+    text-decoration: none;
+    background: red;
+    color: #ffffff;
+    font-size: 1rem;
+    text-align: center;
+}
+
+#clear {
+    margin-right: 80px;
+}
+
+
+
